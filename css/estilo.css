@@ -1,9 +1,52 @@
-body {background-color: #FEF9E7 ;}
-.fondotitulo {background-color:#AAB7B8 ;
-font-size:300%;
-text-align: center;}
+body {background-color: #FCF3CF;
+  background-image: url(../imagenes/olla.jpg);
+    background-size: cover;
+}
+
+.fondotitulo {background-color:#E67E22;
+  font-family: Bernard MT Condensed;
+  font-size:200%;
+  text-align: center;
+}
+
+.Navegador {display: inline-block;
+font-family: monospace;
+font-size: 200%;
+text-align: justify;
+}
+
 .subtitulo{font-size:200%;
-font-family: fantasy;color: #E67E22;
-text-decoration: underline;}
-.parrafo{font-family: cursive;text-align: justify;}
-.imgolla{height:450px;}
+font-family: fantasy;color:#E67E22 ;
+text-decoration: underline;
+text-align: left;}
+
+.parrafo{font-family: cursive; text-align: justify;
+}
+
+.redes {bottom:30px;
+  right: 30px;
+  display: inline
+  padding 15px;
+}
+.whats {
+width: 50px;
+position: fixed;
+bottom: 10px;
+right: 15px}
+
+.piepagina{font-family: cursive;
+text-align: center;}
+
+
+header {background-color:#ABB2B9; }
+nav {background-color:#BFC9CA; border: 5px solid}
+section {background-color: #ABB2B9;
+  display: inline-flex;
+border: 5px solid;}
+aside {display: inline;}
+footer {background-color:#E67E22;
+  background-size:cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+align-items: center;}
