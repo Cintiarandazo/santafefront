@@ -1,12 +1,16 @@
-body {background-color: #FCF3CF;
-  background-image: url(../imagenes/olla.jpg);
-    background-size: cover;
+body {background-color:black;
+
 }
 
-.fondotitulo {background-color:#E67E22;
+.logo{ display: flex;
+justify-content: center;
+margin: 30px;
+}
+
+.fondotitulo {
   font-family: Bernard MT Condensed;
-  font-size:200%;
-  text-align: center;
+  font-size:150%;
+  margin: 25px
 }
 
 .Navegador {display: inline-block;
@@ -15,19 +19,32 @@ font-size: 200%;
 text-align: justify;
 }
 
+.titulo{font-size:300%;
+  background-color: orange;
+font-family: fantasy; color:black ;
+text-decoration: underline;
+text-align: center;}
+
+.imagen{ display: flex;
+justify-content: center;}
+
 .subtitulo{font-size:200%;
-font-family: fantasy;color:#E67E22 ;
+  background-color: orange;
+font-family: fantasy;color:black ;
 text-decoration: underline;
 text-align: left;}
 
 .parrafo{font-family: cursive; text-align: justify;
 }
 
-.redes {bottom:30px;
-  right: 30px;
-  display: inline
-  padding 15px;
+.redes {background-color: orange;
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 .whats {
 width: 50px;
 position: fixed;
@@ -38,13 +55,27 @@ right: 15px}
 text-align: center;}
 
 
-header {background-color:#ABB2B9; }
-nav {background-color:#BFC9CA; border: 5px solid}
+header {background-color:#ABB2B9;
+  display: flex;
+justify-content: center;
+justify-content: space-around;
+flex-wrap: wrap;}
+
+nav {background-color:#ABB2B9;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;}
+
 section {background-color: #ABB2B9;
-  display: inline-flex;
-border: 5px solid;}
-aside {display: inline;}
-footer {background-color:#E67E22;
+  display:block;
+}
+aside {display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+footer {background-color:#ABB2B9;
   background-size:cover;
   display: flex;
   flex-wrap: wrap;
