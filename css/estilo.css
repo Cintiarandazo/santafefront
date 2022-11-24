@@ -1,6 +1,14 @@
-body {background-color:black;
+body {background-color:white;
 
 }
+
+@font-face {
+  font-family: "ravie";
+  src: url("../fonts/RAVIE.ttf") format("truetype");
+}
+
+.titulocontac {
+font-family:"RAVIE";}
 
 .logo{ display: flex;
 justify-content: center;
@@ -13,10 +21,25 @@ margin: 30px;
   margin: 25px
 }
 
-.Navegador {display: inline-block;
-font-family: monospace;
+.Navegador {display: flex;
+  font-family: monospace;
 font-size: 200%;
-text-align: justify;
+justify-content: flex-start;
+flex-wrap:wrap;
+display: inline-block;
+}
+
+.caja { width: 50%;
+height:50%;
+background-color: green}
+
+.fotito { width: 45vw;
+height: 60vh;}
+
+a:hover { color: orange}
+
+a { color: white;
+text-decoration: none;
 }
 
 .titulo{font-size:300%;
@@ -63,9 +86,10 @@ flex-wrap: wrap;}
 
 nav {background-color:#ABB2B9;
 display: flex;
-flex-wrap: wrap;
 justify-content: center;
-justify-content: space-around;}
+justify-content: space-around;
+flex-wrap: wrap;
+}
 
 section {background-color: #ABB2B9;
   display:block;
