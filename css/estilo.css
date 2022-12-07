@@ -1,5 +1,4 @@
 body {background-color:white;
-
 }
 
 @font-face {
@@ -21,20 +20,10 @@ margin: 30px;
   margin: 25px
 }
 
-.Navegador {display: flex;
-  font-family: monospace;
+.Navegador {
+font-family: monospace;
 font-size: 200%;
-justify-content: flex-start;
-flex-wrap:wrap;
-display: inline-block;
 }
-
-.caja { width: 50%;
-height:50%;
-background-color: green}
-
-.fotito { width: 45vw;
-height: 60vh;}
 
 a:hover { color: orange}
 
@@ -42,22 +31,48 @@ a { color: white;
 text-decoration: none;
 }
 
-.titulo{font-size:300%;
-  background-color: orange;
+.titulo{
+font-size:300%;
+background-color: orange;
 font-family: fantasy; color:black ;
 text-decoration: underline;
 text-align: center;}
 
-.imagen{ display: flex;
-justify-content: center;}
+.imagen1{ display: inline-flex;
+justify-content: center;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 50vh;
+height: 35vh;
+margin: 25px;
+}
+
+.imagen2{ display: inline-flex;
+justify-content: center;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 50vh;
+height: 35vh;
+margin: 25px;
+}
+
+.imagen3{ display: inline-flex;
+justify-content: center;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 50vh;
+height: 35vh;
+margin: 25px;
+}
 
 .subtitulo{font-size:200%;
-  background-color: orange;
+background-color: orange;
 font-family: fantasy;color:black ;
 text-decoration: underline;
 text-align: left;}
 
-.parrafo{font-family: cursive; text-align: justify;
+.parrafo{font-family:cursive;
+  text-align: left;
 }
 
 .redes {background-color: orange;
@@ -84,24 +99,71 @@ justify-content: center;
 justify-content: space-around;
 flex-wrap: wrap;}
 
-nav {background-color:#ABB2B9;
+nav {
+background-color:#ABB2B9;
 display: flex;
-justify-content: center;
 justify-content: space-around;
 flex-wrap: wrap;
+
 }
 
-section {background-color: #ABB2B9;
-  display:block;
-}
-aside {display: flex;
-  justify-content: center;
+main {display: flex;
+background-color: #ABB2B9;
+justify-content: space-around;}
+
+section {display: inline;
+  background-color:#ABB2B9;
   justify-content: space-around;
-
 }
+
+section:hover {background-color:orange}
+
+aside {display: flex;
+background-color: #ABB2B9;
+justify-content: center;}
+
 footer {background-color:#ABB2B9;
   background-size:cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 align-items: center;}
+
+
+@media (max-width:575px)
+{ body
+   {background-color: orange;}
+   .fondotitulo {text-align: center;}
+  .Navegador {font-size: 150%;}
+  .imagen2 {display: none;}
+   .imagen3 {display: none;}
+ aside {display: block;}
+ footer .piepagina {text-align: center;}
+ }
+}
+
+@media (orientation:landscape) and (max-width: 991px)
+{body
+  {background-color:green;}
+  .fondotitulo {text-align: center;}
+ .Navegador {font-size: 200%;}
+  .imagen3 {display: none;}
+ aside {display: block;}
+ footer .piepagina {text-align: center;}
+ }
+}
+
+@media (min-width: 575px)
+{ body
+   {background-color: blue;}
+   .fondotitulo {text-align: center;}
+  .Navegador {font-size: 100%;}
+  .imagen1 {display: none;}
+   .imagen3 {display: none;}
+ aside {display: block;}
+ footer .piepagina {text-align: center;}
+ }
+}
+
+
+}
