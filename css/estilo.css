@@ -129,6 +129,25 @@ footer {background-color:#ABB2B9;
   justify-content: space-around;
 align-items: center;}
 
+.card {
+    padding-top: 5vh;
+    background-color: #ABB2B9;
+    background-image: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.btn.btn-secondary {
+    margin-top: 0.5rem;
+}
+
 
 @media (max-width:575px)
 { body
@@ -163,7 +182,4 @@ align-items: center;}
  aside {display: block;}
  footer .piepagina {text-align: center;}
  }
-}
-
-
 }
