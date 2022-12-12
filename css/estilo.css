@@ -1,4 +1,4 @@
-body {background-color:white;
+body {background-color:#ABB2B9;
 }
 
 @font-face {
@@ -6,19 +6,19 @@ body {background-color:white;
   src: url("../fonts/RAVIE.ttf") format("truetype");
 }
 
-.titulocontac {
-font-family:"RAVIE";}
 
 .logo{ display: flex;
 justify-content: center;
 margin: 30px;
 }
 
-.fondotitulo {
+.fondotitulo { color:orange;
   font-family: Bernard MT Condensed;
-  font-size:150%;
-  margin: 25px
+  font-size:200%;
+  margin: 35px
 }
+
+.fondotitulo:hover {color:white;}
 
 .Navegador {
 font-family: monospace;
@@ -27,7 +27,7 @@ font-size: 200%;
 
 a:hover { color: orange}
 
-a { color: white;
+a { color:white;
 text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ text-align: left;}
   text-align: left;
 }
 
-.redes {background-color: orange;
+.redes {background-color:orange;
   margin: 50px;
   padding: 10px;
   display: flex;
@@ -89,40 +89,37 @@ position: fixed;
 bottom: 10px;
 right: 15px}
 
-.piepagina{font-family: cursive;
+.piepagina{
+  color: white;
+  font-family: cursive;
 text-align: center;}
 
+.piepagina:hover {color:orange;}
 
-header {background-color:#ABB2B9;
-  display: flex;
+header {
+display: flex;
 justify-content: center;
 justify-content: space-around;
 flex-wrap: wrap;}
 
+
 nav {
-background-color:#ABB2B9;
 display: flex;
 justify-content: space-around;
-flex-wrap: wrap;
-
-}
+flex-wrap: wrap;}
 
 main {display: flex;
-background-color: #ABB2B9;
 justify-content: space-around;}
 
 section {display: inline;
-  background-color:#ABB2B9;
-  justify-content: space-around;
-}
+    justify-content: space-around;}
 
 section:hover {background-color:orange}
 
 aside {display: flex;
-background-color: #ABB2B9;
 justify-content: center;}
 
-footer {background-color:#ABB2B9;
+footer {
   background-size:cover;
   display: flex;
   flex-wrap: wrap;
